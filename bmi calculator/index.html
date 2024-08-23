@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="Untitled design.png">
+    <link rel="stylesheet" href="bmi.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bmi Calculator</title>
+</head>
+
+<body>
+    <h1>BMI CALCULATOR</h1>
+
+    <div class="form">
+        <form>
+            <div class="input-field">
+                <div class="height">
+                    <p> <label> Enter Height</label></p>
+                    <input type="number" placeholder="Height in cm" id="height-data" />
+
+                </div>
+                <div class="weight">
+                    <p><label> Enter Your Weight</label></p>
+                    <input type="number" placeholder="Weight in kg" id="weight-data" />
+                </div>
+
+            </div>
+            <div class="btn">
+                
+                <button type="submit">Calculate BMI</button><button class="reset">Reset</button>
+            </div>
+
+        </form>
+        <div id="result">
+            <p id="result-data">Your BMI</p>
+        </div>
+    </div>
+
+    <div class="guide">
+        <h2>BMI WEIGHT GUIDE:</h2>
+
+        <p id="under-weight">Under weight = Less than 18.5</p>
+        <p id="normal-weight">Healthy Weight = 18.5 to 24.9</p>
+        <p id="over-weight">Over weight = 25.0 t0 29.9</p>
+        <p id="obesity"> obesity = 30.0 and above</p>
+    </div>
+    <footer>
+        <p> Made with &hearts; by sonu kumar</p>
+        <p>copywrite @sonu 2024</p>
+    </footer>
+    <script src="bmi.js"></script>
+</body>
+
+</html>

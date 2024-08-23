@@ -1,0 +1,164 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    body {
+        background-color: azure;
+        background: linear-gradient(0deg,white,white, green);
+    }
+
+}
+
+h1 {
+    text-align: center;
+    background-color: blueviolet;
+    padding: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0px 0px 274px 274px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    width: 280px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #caf4e8;
+}
+
+label {
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+input {
+    margin-top: 2px;
+    border-radius: 4px;
+    height: 30px;
+    width: 15rem;
+
+    padding-left: 5px;
+    border: 1px solid gray;
+
+}
+
+button {
+    padding: 5px;
+    height: 30px;
+
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+.btn {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 15px;
+    padding-top: 20px;
+}
+.reset {
+    background-color: blueviolet;
+}
+.reset:hover{
+    background-color: violet;
+    
+    
+}
+#result {
+    margin-top: 5px;
+    color: gray;
+    display: flex;align-items: center;
+    justify-content: center;
+    
+    width: 281px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: black;
+    padding: 10px;
+    font-family: sans-serif;
+}
+#result-data{
+    font-size: 12px;
+}
+h2,
+h3 {
+    text-align: center;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    padding-top: 10px;
+    font-weight: 400;
+    color: cadetblue;
+}
+
+.guide p {
+    text-align: center;
+    font-size: 0.8rem;
+    color: darkgrey;
+
+}
+
+footer {
+    height: 30vh;
+    background-color: black;
+    color: rgb(160, 163, 165);
+    display: flex;
+    margin-top: 85px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 380px) {
+    button {
+        width: 10rem;
+        height: 40px;
+        font-size: 1rem;
+    }
+    .btn{
+        width: initial;
+    }
+    h1{
+        font-size: 15px;
+    }
+}
